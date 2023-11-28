@@ -1,0 +1,23 @@
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    
+    }
+    .body{
+        background-color: black;
+    }
+    .tex{
+        color: white;
+    }
+    
+  li{
+    display:inline-block;
+  }
+  .happy{
+    color: white;
+  }
+  .Campic{
+    height: 96px; width: 64px;
+  }

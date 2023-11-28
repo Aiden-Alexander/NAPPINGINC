@@ -1,0 +1,20 @@
+#about-us{
+    background-color: black;
+    padding: 20px;
+    margin:auto;
+  }
+  .lamelo{
+    color:blue;
+    text-align: center;
+    
+  }
+  .ball{
+    color:white;
+    text-align: auto;
+    text-align: center;
+  }
+  .location{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
