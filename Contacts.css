@@ -19,5 +19,55 @@
     color: white;
   }
   .Campic{
-    height: 96px; width: 64px;
+    height: 296px; width: 264px; margin
   }
+  
+  p{
+    color:white;
+  }
+  h1{
+    color:blue;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+
+
+
+
+  .contact-box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h2{
+  color: white;
+}

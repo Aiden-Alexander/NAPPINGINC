@@ -18,43 +18,38 @@
   </head>
   <body class="body">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="NappingMenu.html">Orders</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Contactpage.html">Contact</a></li>
-                  <li><a class="dropdown-item" href="TOS.html">Terms of Service</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="Review.html">Review</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/MicrosoftTeams-image (11).png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="NappingMenu.html">Orders</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Contactpage.html">Contact</a></li>
+                <li><a class="dropdown-item" href="TOS.html">Terms of Service</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Review.html">Review</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     <h1></h1>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
@@ -65,7 +60,54 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <img class="Campic" src="img/Cam.png"
+  <h1>Contact Us</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="Campic" src="img/Cam.png">
+        <p>CameronV@gmail.com <hr> <p>Phone Number: 1-556-679-4432</p>
+      </div>
+      <div class="col-md-3">
+        <img class="Campic" src="img/KT.png" alt="">
+        <p>KarterT@gmail.com <hr><p>Phone Number: 1-234-187-1738</p>
+      </div>
+      <div class="col-md-3">
+        <img class="Campic" src="img/Macdaddy.png" alt="">
+        <p>AidenA@gmail.com<hr><p>Phone Number: 1-334-321-4532</p>
+      </div>
+      <div class="col-md-3">
+        <img class="Campic" src="img/sstg.png" alt="">
+        <p>JupiterJ@gmail.com<hr><p>Phone Number:1-493-226-2993</p> 
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="emailbox container text-center">
+
+      
+      </form>
+    </div>
+
+
+  </footer>
   
-  </body>
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+
+    <form action="/submit_contact" method="post"> <!-- Replace "/submit_contact" with the actual path to your server-side script -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+  
+  
+</body>
 </html>

@@ -1,0 +1,37 @@
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    
+    }
+    .body{
+        background-color: black;
+    }
+    .tex{
+        color: white;
+    }
+    
+  li{
+    display:inline-block;
+  }
+  .happy{
+    color: white;
+  }
+  .Campic{
+    height: 296px; width: 264px; margin
+  }
+  
+  p{
+    color: white;
+  }
+  h1{
+    color:blue;
+    text-align: center;
+  }
+  .emailbox {
+    width: 600px; height: 600px;
+    border: 15px solid rgb(0, 124, 128);
+    padding: 50px;
+    margin: auto;
+  }
