@@ -1,27 +1,78 @@
-#about-us{
-    background-color: black;
-    padding: 20px;
-    margin:auto;
-  }
-  .lamelo{
-    color:blue;
-    text-align: center;
-    
-  }
-  .ball{
-    color:white;
-    text-align: auto;
-    text-align: center;
-  }
-  .location{
-    display: block;
-   margin-left: auto;
-   margin-right: auto;
-  }
-.hq{
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  color: blue;
+}
+
+nav img {
+  max-height: 50px;
+  /* Adjust the height as needed */
+  margin: 0 auto;
+  /* Center the image */
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:300px;
-  height:250px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.carl {
+  width: 600px;
+  height: 700px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.lamel {
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.water {
+  left: 8%;
+}
+
+.jg {
+  height: 500px;
+  width: 400px;
 }

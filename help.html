@@ -1,101 +1,141 @@
  <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <html lang="en">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Help Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: black;
-            border: 8px solid blue; 
-            padding: 10px;
-        }
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-        h1, h2 {
-            color: whitesmoke;
-        }
+   <!-- Bootstrap JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <title>Help Page</title>
+   <style>
+     body {
+       font-family: Arial, sans-serif;
+       margin: 20px;
+       background-color: black;
+       padding: 10px;
+     }
 
-        p {
-            color:whitesmoke;
-            line-height: 1.6;
-        }
+     h1,
+     h2 {
+       color: whitesmoke;
+     }
 
-        /* Add your custom styles here */
+     p {
+       color: whitesmoke;
+       line-height: 1.6;
+     }
 
-    </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/MicrosoftTeams-image (11).png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="NappingMenu.html">Orders</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Contactpage.html">Contact</a></li>
-              <li><a class="dropdown-item" href="TOS.html">Terms of Service</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Review.html">Review</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+     /*styling for navbar*/
+     nav img {
+       max-height: 50px;
+       margin: 0 auto;
+       /* Center the image */
+       display: block;
+     }
 
-    <h1>Welcome to Our Help Page</h1>
+     /* end of Contact box */
+     nav {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: black;
+       padding: 10px;
+       color: blue;
+     }
 
-    <h2>Helping Individuals Thrive</h2>
+     /*styling for navbar*/
+     nav img {
+       max-height: 50px;
+       margin: 0 auto;
+       /* Center the image */
+       display: block;
+     }
 
-    <p>
-        At our organization, we are committed to creating positive change in the lives of individuals. Whether you are seeking personal development or stress relief, we provide support and resources to help you thrive.
-    </p>
+     nav ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       display: flex;
+     }
 
-    <h2>Our Services</h2>
+     nav ul li {
+       margin-right: 15px;
+     }
 
-    <p>
-        <strong>1. Rehabilitation Programs:</strong> We offer rehabilitation programs for individuals seeking to make positive changes in their lives. Our professional team is dedicated to guiding and supporting you on your journey to personal growth and transformation.
-    </p>
+     nav a {
+       text-decoration: none;
+       color: red;
+       font-weight: bold;
+       font-size: 25px;
+       padding: 30px;
+       /* end of styling for navbar*/
+   </style>
+ </head>
 
-    <p>
-        <strong>2. Stress Relief Workshops:</strong> Life can be challenging, and stress is a common experience. Join our stress relief workshops to learn effective techniques for relaxation and coping with life's demands.
-    </p>
+ <body>
+   <nav>
+     <!-- Left side -->
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="NappingMenu.html">Orders</a></li>
+       <li><a href="TOS.html">Terms of Service</a></li>
+     </ul>
 
-    <h2>Contact Us</h2>
+     <!-- Centered logo -->
+     <img class="logo" src="img/even better.PNG" alt="Company Logo">
 
-    <p>
-        If you have any questions or would like more information about our programs and services, please don't hesitate to contact us. We are here to help you on your path to a better and more fulfilling life.
-    </p>
+     <!-- Right side -->
+     <ul>
+       <li><a href="Contactpage.html">Contact</a></li>
+       <li><a href="Review.html">Reviews</a></li>
+       <li><a href="AboutUs.html">About Us</a></li>
+     </ul>
+   </nav>
 
-    <p>
-        Email: info@yourorganization.com<br>
-        Phone: (123) 456-7890
-    </p>
+   <h1>Welcome to Our Help Page</h1>
 
-</body>
-</html>
+   <h2>Helping Individuals Thrive</h2>
+
+   <p>
+     At our organization, we are committed to creating positive change in the lives of individuals. Whether you are
+     seeking personal development or stress relief, we provide support and resources to help you thrive.
+   </p>
+
+   <h2>Our Services</h2>
+
+   <p>
+     <strong>1. Rehabilitation Programs:</strong> We offer rehabilitation programs for individuals seeking to make
+     positive changes in their lives. Our professional team is dedicated to guiding and supporting you on your journey
+     to personal growth and transformation.
+   </p>
+
+   <p>
+     <strong>2. Stress Relief Workshops:</strong> Life can be challenging, and stress is a common experience. Join our
+     stress relief workshops to learn effective techniques for relaxation and coping with life's demands.
+   </p>
+
+   <h2>Contact Us</h2>
+
+   <p>
+     If you have any questions or would like more information about our programs and services, please don't hesitate to
+     contact us. We are here to help you on your path to a better and more fulfilling life.
+   </p>
+
+   <p>
+     Email: info@yourorganization.com<br>
+     Phone: (123) 456-7890
+   </p>
+   <footer>
+     <p>&copy; 2023 Napping Inc. All rights reserved.</p>
+   </footer>
+ </body>
+
+ </html>

@@ -1,0 +1,66 @@
+#about-us {
+  background-color: black;
+  padding: 20px;
+  margin: auto;
+}
+
+.lamelo {
+  color: red;
+  text-align: center;
+}
+
+.ball {
+  color: white;
+  text-align: auto;
+  text-align: center;
+}
+
+.location {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hq {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  color: blue;
+}
+
+nav img {
+  max-height: 50px;
+  /* Adjust the height as needed */
+  margin: 0 auto;
+  /* Center the image */
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px;
+}
